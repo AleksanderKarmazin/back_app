@@ -1,5 +1,4 @@
 const https = require('https');
-const { inflateRaw } = require('zlib');
 
 https.get('https://rickandmortyapi.com/api/character', (res) => {
 //   console.log('statusCode:', res.statusCode);
